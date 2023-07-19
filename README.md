@@ -1,15 +1,16 @@
 # Online-Bookstore-API-Team-12
 
-Table of Contents
-* # Introduction
-* ## Terminologies Used
-* ### Prerequisites
-* #### Getting Started
-* ##### Contibutors
+## Table of Contents
+* Introduction
+* Terminologies Used
+* Prerequisites
+* Getting Started
+* Contibutors
 * #### 
 
 
 Introduction
+
 Welcome to the online book store project. This API provides a comprehensive and user-friendly guide that would aid in navigating your way on the online book store system. It enables users to register, login,view,search for available books and purchase them.Even if you are a user eager to explore the functionalities or a developer intergrating with the API.
 
 Admins Have Following Access for this online store site:
@@ -86,12 +87,12 @@ git clone https://github.com/yourusername/repository.git
 
 4. Configure the database
 
-* Open the appsettings.json file. 
+* Open the **appsettings.json** file. 
 
 
-* Modify the ConnectionStrings:DefaultConnection value to match your SQL Server connection string.
+* Modify the **ConnectionStrings:DefaultConnection** value to match your SQL Server connection string.
 
-* Modify the JwtConfig:Secret value to use a secure key for JWT token generation. it is recommended to generate a strong random key of sufficient length(e.g, 256bits)
+* Modify the **JwtConfig:Secret** value to use a secure key for JWT token generation. it is recommended to generate a strong random key of sufficient length(e.g, 256bits)
 
 5. Apply database migrations
 
