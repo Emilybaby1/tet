@@ -6,7 +6,7 @@
 * Prerequisites
 * Getting Started
 * Contibutors
-* #### 
+* User Guide
 
 
 ## Introduction
@@ -71,18 +71,16 @@ You can clone the repository using this
 git clone <repository_url> 
 
 
-Replace the <repository_url> with the Url of the github repository you want to clone.
+   Replace the <repository_url> with the Url of the github repository you want to clone.
 
-eg 
+   eg 
 
-git clone https://github.com/yourusername/repository.git
+   git clone https://github.com/yourusername/repository.git
 
-
-3. Then Install dependencies to 
-
-  cd online-book-store-api
-
-  dotnet restore 
+3. Then Install dependencies to
+    
+   **cd online-book-store-api** 
+   **dotnet restore** 
 
   This code would only restore the package but won't build it.
 
@@ -96,7 +94,7 @@ git clone https://github.com/yourusername/repository.git
 
 5. Apply database migrations
    
-  **dotnet ef database update**
+   **dotnet ef database update**
 
 6. Run the API
    
@@ -132,11 +130,20 @@ git clone https://github.com/yourusername/repository.git
     
 * Add books to the shopping cart using the /book/add-to-cart/{id} endpoint.
 
-* View the contents of the shopping cart using the /book/view-cart endpoint.
+* View the contents of the shopping cart using the  /book/view-cart endpoint.
   
 * Remove books from the shopping cart using the /book/delete-from-cart/{id} endpoint.
   
 11. Error Handling
+    
 The API includes robust error handling mechanisms to provide meaningful error messages and responses in case of exceptions or invalid requests.
-Logging
+
+12. Logging
+
 Logging is implemented to capture relevant information for debugging and troubleshooting purposes. Check the log files for any issues or helpful insights.
+
+## 
+The steps mentioned above should provide you with the resources you need to do research and take part in the project. 
+Do not hesitate to contact us if you have any questions or recommendations. It's fun to code!
+Happy Coding.
+
