@@ -5,7 +5,7 @@ Table of Contents
 * ## Terminologies Used
 * ### Prerequisites
 * #### Getting Started
-* ### Contibutors
+* ##### Contibutors
 * #### 
 
 
@@ -39,8 +39,9 @@ The Online Book Store API used the following terminologies
 
 Prerequisite
 
-in other to run this project you'll need
--
+in other to run this project you'll need 
+* Browser
+* VS Code or any code editor
 
 
 Getting Started
