@@ -53,7 +53,7 @@ or
 
 get a local copy running by clicking on this site
 
-https://github.com/Codevixens-Band-3-General-Project/Online-Bookstore-API-Team-12.
+`https://github.com/Codevixens-Band-3-General-Project/Online-Bookstore-API-Team-12.`
 
 
 
@@ -68,41 +68,42 @@ https://github.com/Codevixens-Band-3-General-Project/Online-Bookstore-API-Team-1
 2. Clone the Repository:
 You can clone the repository using this 
 
-git clone <repository_url> 
+`git clone <repository_url> `
 
 
-   Replace the <repository_url> with the Url of the github repository you want to clone.
+   Replace the `<repository_url>` with the Url of the github repository you want to clone.
 
    eg 
 
-   git clone https://github.com/yourusername/repository.git
-
+  ` git clone https://github.com/yourusername/repository.git`
+  
 3. Then Install dependencies to
     
-   **cd online-book-store-api** 
-   **dotnet restore** 
+`   cd online-book-store-api
 
+   dotnet restore
+`
   This code would only restore the package but won't build it.
 
 4. Configure the database
 
-* Open the **appsettings.json** file. 
+* Open the `appsettings.json` file. 
 
-* Modify the **ConnectionStrings:DefaultConnection** value to match your SQL Server connection string.
+* Modify the `ConnectionStrings:DefaultConnection` value to match your SQL Server connection string.
 
-* Modify the **JwtConfig:Secret** value to use a secure key for JWT token generation. it is recommended to generate a strong random key of sufficient length(e.g, 256bits)
+* Modify the `JwtConfig:Secret` value to use a secure key for JWT token generation. it is recommended to generate a strong random key of sufficient length(e.g, 256bits)
 
 5. Apply database migrations
    
-   **dotnet ef database update**
+   `dotnet ef database update`
 
 6. Run the API
    
-   **dotnet run**
+   `dotnet run`
 
 7. Explore the API endpoints
    
-* The API is now running locally on **http://localhost:5000.**
+* The API is now running locally on `**http://localhost:5000.**`
 
 * Use a tool like Postman or cURL to make HTTP requests to the available endpoints. 
 
@@ -111,11 +112,11 @@ git clone <repository_url>
 
 8. User Authentication
     
-* Register a new user by making a POST request to /authentication/register with the required user details.
+* Register a new user by making a `POST` request to `/authentication/register` with the required `user` details.
   
-* Obtain a JWT token by making a POST request to /authentication/login with the user's login credentials. The token will be included in the response.
+* Obtain a JWT token by making a `POST` request to` /authentication/login ` with the user's `login` credentials. The token will be included in the response.
   
-* Include the obtained JWT token in the Authorization header for authenticated requests. Example: Authorization: Bearer <token>
+* Include the obtained JWT token in the` Authorization header` for authenticated requests. Example:` Authorization: Bearer <token>`
 
 
 9. Manage Books
@@ -128,11 +129,11 @@ git clone <repository_url>
 
 10. Shopping Cart
     
-* Add books to the shopping cart using the /book/add-to-cart/{id} endpoint.
+* Add books to the shopping cart using the `/book/add-to-cart/{id}` endpoint.
 
-* View the contents of the shopping cart using the  /book/view-cart endpoint.
+* View the contents of the shopping cart using the ` /book/view-cart` endpoint.
   
-* Remove books from the shopping cart using the /book/delete-from-cart/{id} endpoint.
+* Remove books from the shopping cart using the `/book/delete-from-cart/{id}` endpoint.
   
 11. Error Handling
     
