@@ -53,7 +53,7 @@ or
 
 get a local copy running by clicking on this site
 
-`https://github.com/Codevixens-Band-3-General-Project/Online-Bookstore-API-Team-12.`
+```https://github.com/Codevixens-Band-3-General-Project/Online-Bookstore-API-Team-12.```
 
 
 
@@ -79,10 +79,10 @@ You can clone the repository using this
   
 3. Then Install dependencies to
     
-`   cd online-book-store-api
+   `cd online-book-store-api`
 
-   dotnet restore
-`
+   `dotnet restore`
+   
   This code would only restore the package but won't build it.
 
 4. Configure the database
@@ -137,7 +137,7 @@ You can clone the repository using this
   
 11. Error Handling
     
-The API includes robust error handling mechanisms to provide meaningful error messages and responses in case of exceptions or invalid requests.
+In the event of errors or incorrect requests, the API contains comprehensive error handling capabilities to deliver clear error messages and answers.
 
 12. Logging
 
