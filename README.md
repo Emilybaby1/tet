@@ -128,11 +128,15 @@ git clone https://github.com/yourusername/repository.git
   
 * Admin privileges are required for certain operations.
 
-10. Run the API
+10. Shopping Cart
     
-  dotnet run
+* Add books to the shopping cart using the /book/add-to-cart/{id} endpoint.
 
-11. Exlore the API endpoints
-    
-The API is now running locally on http://localhost:5000.
-Use a tool like Postman or cURL to make HTTP requests to the available endpoints. Refer to the API Documentation for detailed information about the endpoints and their usage.
+* View the contents of the shopping cart using the /book/view-cart endpoint.
+  
+* Remove books from the shopping cart using the /book/delete-from-cart/{id} endpoint.
+  
+11. Error Handling
+The API includes robust error handling mechanisms to provide meaningful error messages and responses in case of exceptions or invalid requests.
+Logging
+Logging is implemented to capture relevant information for debugging and troubleshooting purposes. Check the log files for any issues or helpful insights.
