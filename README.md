@@ -9,7 +9,7 @@
 * #### 
 
 
-Introduction
+## Introduction
 
 Welcome to the online book store project. This API provides a comprehensive and user-friendly guide that would aid in navigating your way on the online book store system. It enables users to register, login,view,search for available books and purchase them.Even if you are a user eager to explore the functionalities or a developer intergrating with the API.
 
@@ -27,7 +27,7 @@ Users Have Following Access for this online store site:
 * Remove a book from cart.
 * Purchase Books.
 
-Terminologies Used
+## Terminologies Used
 
 The Online Book Store API used the following terminologies 
 
@@ -38,14 +38,14 @@ The Online Book Store API used the following terminologies
 * Microsoft Identity for user management
 * Microsoft SQL Server for the database
 
-Prerequisite
+## Prerequisite
 
-in other to run this project you'll need 
+In other to run this project you'll need 
 * Browser
 * VS Code or any code editor
 
 
-Getting Started
+## Getting Started
 
 Ensure to Download the Necessary Requirement and Dependencies installed before beginning the setup 
 
@@ -57,11 +57,12 @@ https://github.com/Codevixens-Band-3-General-Project/Online-Bookstore-API-Team-1
 
 
 
-Contributors
+## Contributors
 * Abiola Abdulsalam		
 * Chepngeno Jackline
 
-User Guide
+## User Guide
+
 1. Create a Repository 
 
 2. Clone the Repository:
@@ -89,37 +90,49 @@ git clone https://github.com/yourusername/repository.git
 
 * Open the **appsettings.json** file. 
 
-
 * Modify the **ConnectionStrings:DefaultConnection** value to match your SQL Server connection string.
 
 * Modify the **JwtConfig:Secret** value to use a secure key for JWT token generation. it is recommended to generate a strong random key of sufficient length(e.g, 256bits)
 
 5. Apply database migrations
-
-  dotnet ef database update
+   
+  **dotnet ef database update**
 
 6. Run the API
-  dotnet run
-
+   
+   **dotnet run**
 
 7. Explore the API endpoints
-The API is now running locally on http://localhost:5000.
-Use a tool like Postman or cURL to make HTTP requests to the available endpoints. Refer to the API Documentation for detailed information about the endpoints and their usage.
+   
+* The API is now running locally on **http://localhost:5000.**
+
+* Use a tool like Postman or cURL to make HTTP requests to the available endpoints. 
+
+* Go to the API Documentation for detailed information about the endpoints and their usage.
 
 
 8. User Authentication
-Register a new user by making a POST request to /authentication/register with the required user details.
-Obtain a JWT token by making a POST request to /authentication/login with the user's login credentials. The token will be included in the response.
-Include the obtained JWT token in the Authorization header for authenticated requests. Example: Authorization: Bearer <token>
+    
+* Register a new user by making a POST request to /authentication/register with the required user details.
+  
+* Obtain a JWT token by making a POST request to /authentication/login with the user's login credentials. The token will be included in the response.
+  
+* Include the obtained JWT token in the Authorization header for authenticated requests. Example: Authorization: Bearer <token>
 
 
 9. Manage Books
-Use the appropriate endpoints to perform CRUD operations on books, such as creating, updating, deleting, and retrieving books by various criteria.
-Ensure you have the necessary authorization roles to access specific endpoints. Admin privileges are required for certain operations.
+    
+* Use the appropriate endpoints to perform CRUD operations on books, such as creating, updating, deleting, and retrieving books by various criteria.
+  
+* Ensure you have the necessary authorization roles to access specific endpoints.
+  
+* Admin privileges are required for certain operations.
 
 10. Run the API
+    
   dotnet run
 
-Explore the API endpoints
+11. Exlore the API endpoints
+    
 The API is now running locally on http://localhost:5000.
 Use a tool like Postman or cURL to make HTTP requests to the available endpoints. Refer to the API Documentation for detailed information about the endpoints and their usage.
